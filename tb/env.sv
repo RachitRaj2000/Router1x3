@@ -1,4 +1,4 @@
-	class env extends uvm_env;
+class env extends uvm_env;
      	`uvm_component_utils(env)
 	src_agt_top src_agtop;
 	dest_agt_top dest_agtop;
