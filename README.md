@@ -11,7 +11,7 @@ Designed a 1x3 Router in Verilog, integrating sub-components with Xilinx ISE and
 ![Router1x3 rtl simulation netlist](router_rtl_simulation_netlist_images/image2.png)
 
 
-**VERIFCATION USING FUNCTIONAL COVERAGE, CODE COVERAGE AND ASSERTION BASED VERIFICATION USING SYNOPSYS VCS AND VERDI" **
+**VERIFCATION USING FUNCTIONAL COVERAGE, CODE COVERAGE AND ASSERTION BASED VERIFICATION USING SYNOPSYS VCS AND VERDI:**
 
 ![Router1x3 verification using Functional coverage](Router_verification_uvm_images/functional_coverage.png)
 
