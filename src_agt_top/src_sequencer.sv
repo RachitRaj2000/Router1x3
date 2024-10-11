@@ -1,45 +1,7 @@
-/************************************************************************
-  
-Copyright 2019 - Maven Silicon Softech Pvt Ltd.  
-  
-www.maven-silicon.com 
-  
-All Rights Reserved. 
-This source code is an unpublished work belongs to Maven Silicon Softech Pvt Ltd. 
-It is not to be shared with or used by any third parties who have not enrolled for our paid 
-training courses or received any written authorization from Maven Silicon.
-  
-Filename:       ram_wr_sequencer.sv
-  
-Author Name:    Putta Satish
-
-Support e-mail: For any queries, reach out to us on "techsupport_vm@maven-silicon.com" 
-
-Version:	1.0
-
-************************************************************************/
-//------------------------------------------
-// CLASS DESCRIPTION
-//------------------------------------------
-
-
-// Extend ram_wr_sequencer from uvm_sequencer parameterized by write_xtn
-	class src_sequencer extends uvm_sequencer #(src_xtn);
-
-// Factory registration using `uvm_component_utils
+class src_sequencer extends uvm_sequencer #(src_xtn);
 	`uvm_component_utils(src_sequencer)
-
-//------------------------------------------
-// METHODS
-//------------------------------------------
-
-// Standard UVM Methods:
 	extern function new(string name = "src_sequencer",uvm_component parent);
-	endclass
-//-----------------  constructor new method  -------------------//
+endclass
 	function src_sequencer::new(string name="src_sequencer",uvm_component parent);
 		super.new(name,parent);
 	endfunction
-
-
-
