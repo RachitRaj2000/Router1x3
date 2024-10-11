@@ -7,7 +7,6 @@ src_config src_cfg[];
 dest_config dest_cfg[];
 `uvm_object_utils(env_config)
 extern function new(string name = "env_config");
-
 endclass: env_config
 function env_config::new(string name = "env_config");
   super.new(name);
